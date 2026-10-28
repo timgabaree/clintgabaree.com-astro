@@ -1,0 +1,83 @@
+{
+  "name": "Clint Gabaree",
+  "firstName": "Clint",
+  "domain": "clintgabaree.com",
+  "url": "https://clintgabaree.com",
+  "ga": "G-MSVFVS58YZ",
+  "privacyEmail": "tim@timgabaree.com",
+  "title": "Clint Gabaree | Technology | Chess | Soccer | Creativity",
+  "description": "The personal website of Clint Gabaree, sharing technology, programming, chess, soccer, gaming, creative problem solving, projects, and new adventures.",
+  "image": "/media/clintgabaree-og-1200x1200.png",
+  "heading": "Welcome to ClintGabaree.com",
+  "introduction": "Hi! I'm Clint. This is my website and the start of something fun. More adventures, projects, and stories will be added soon.",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://clintgabaree.com/#website",
+        "url": "https://clintgabaree.com/",
+        "name": "Clint Gabaree",
+        "description": "The personal website of Clint Gabaree, sharing technology, programming, chess, soccer, gaming, creative problem solving, projects, and new adventures.",
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "ImageObject",
+        "@id": "https://clintgabaree.com/#primaryimage",
+        "url": "https://clintgabaree.com/media/clintgabaree-og-1200x1200.png",
+        "contentUrl": "https://clintgabaree.com/media/clintgabaree-og-1200x1200.png",
+        "width": 1200,
+        "height": 1200,
+        "encodingFormat": "image/png",
+        "caption": "Clint Gabaree",
+        "representativeOfPage": true
+      },
+      {
+        "@type": "ProfilePage",
+        "@id": "https://clintgabaree.com/#webpage",
+        "url": "https://clintgabaree.com/",
+        "name": "Clint Gabaree | Technology | Chess | Soccer | Creativity",
+        "description": "The personal website of Clint Gabaree, sharing technology, programming, chess, soccer, gaming, creative problem solving, projects, and new adventures.",
+        "isPartOf": {
+          "@id": "https://clintgabaree.com/#website"
+        },
+        "primaryImageOfPage": {
+          "@id": "https://clintgabaree.com/#primaryimage"
+        },
+        "mainEntity": {
+          "@id": "https://clintgabaree.com/#person"
+        },
+        "about": {
+          "@id": "https://clintgabaree.com/#person"
+        },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://clintgabaree.com/#person",
+        "name": "Clint Gabaree",
+        "givenName": "Clint",
+        "familyName": "Gabaree",
+        "url": "https://clintgabaree.com/",
+        "image": {
+          "@id": "https://clintgabaree.com/#primaryimage"
+        },
+        "description": "A student interested in technology, programming, chess, soccer, gaming, and creative problem solving.",
+        "knowsAbout": [
+          "Programming",
+          "Artificial Intelligence",
+          "Technology",
+          "Computer Science",
+          "Chess",
+          "Soccer",
+          "Creative Problem Solving",
+          "Roblox",
+          "Minecraft"
+        ],
+        "mainEntityOfPage": {
+          "@id": "https://clintgabaree.com/#webpage"
+        }
+      }
+    ]
+  }
+}

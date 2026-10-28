@@ -1,0 +1,32 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "clintgabaree-com-astro-production",
+  "account_id": "7459bd2037d71d23fd030e3542b9df61",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-10-23",
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [
+    { "pattern": "clintgabaree.com/*", "zone_id": "d157de94b1310465b45bb88df5bb91da" },
+    { "pattern": "www.clintgabaree.com/*", "zone_id": "d157de94b1310465b45bb88df5bb91da" }
+  ],
+  "assets": {
+    "directory": "./dist-production",
+    "binding": "ASSETS",
+    "run_worker_first": true,
+    "html_handling": "drop-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  "vars": {
+    "ENVIRONMENT": "production",
+    "SITE_HOST": "clintgabaree.com",
+    "PRODUCTION_ENABLED": "true"
+  },
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1,
+    "logs": {
+      "invocation_logs": false
+    }
+  }
+}
