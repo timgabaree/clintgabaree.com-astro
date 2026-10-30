@@ -1,0 +1,35 @@
+{
+  "domain": "clintgabaree.com",
+  "branch": "main",
+  "worker": "clintgabaree-com-astro-production",
+  "checks": [
+    [
+      "run",
+      "check"
+    ],
+    [
+      "test"
+    ],
+    [
+      "run",
+      "build:production"
+    ],
+    [
+      "run",
+      "test:site"
+    ]
+  ],
+  "liveChecks": [
+    [
+      "scripts/verify-deployment.mjs",
+      "production"
+    ]
+  ],
+  "livePages": [
+    "/",
+    "/privacy",
+    "/sitemap"
+  ],
+  "repository": "clintgabaree.com-astro",
+  "account": "7459bd2037d71d23fd030e3542b9df61"
+}
