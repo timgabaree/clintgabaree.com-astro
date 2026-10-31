@@ -1,11 +1,13 @@
 # Launch verification — October 28, 2026
 
+Account, deployment, and email-event identifiers, origin addresses, and machine-specific paths are shown as placeholders where applicable. Use your own configuration and backup records for actual values; placeholders are not deployable values.
+
 Status: live on Cloudflare at https://clintgabaree.com and https://www.clintgabaree.com; www and HTTP redirect to the HTTPS apex while preserving paths and queries.
 
 ## Release
 
-- Production version: `88321c78-9784-4a48-8903-2c666a5de5e7` (100% of production traffic).
-- Protected staging version: `b6f47a94-6e21-424a-9100-74a6a5e91645`.
+- Production version: `DEPLOYMENT_VERSION_15` (100% of production traffic).
+- Protected staging version: `DEPLOYMENT_VERSION_16`.
 - Two exact-host Worker routes only; default fail-closed behavior.
 - Original DNS records retained, including apex/www, email and all service aliases.
 - Minimum TLS 1.2 confirmed after reload; TLS 1.3 remains enabled.
