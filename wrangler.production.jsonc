@@ -7,8 +7,14 @@
   "workers_dev": false,
   "preview_urls": false,
   "routes": [
-    { "pattern": "clintgabaree.com/*", "zone_id": "d157de94b1310465b45bb88df5bb91da" },
-    { "pattern": "www.clintgabaree.com/*", "zone_id": "d157de94b1310465b45bb88df5bb91da" }
+    {
+      "pattern": "clintgabaree.com/*",
+      "zone_id": "d157de94b1310465b45bb88df5bb91da"
+    },
+    {
+      "pattern": "www.clintgabaree.com/*",
+      "zone_id": "d157de94b1310465b45bb88df5bb91da"
+    }
   ],
   "assets": {
     "directory": "./dist-production",
@@ -28,5 +34,12 @@
     "logs": {
       "invocation_logs": false
     }
-  }
+  },
+  "d1_databases": [
+    {
+      "binding": "GEO_DB",
+      "database_name": "family-site-traffic",
+      "database_id": "f68d949c-53f7-474b-b48e-2ebda8422994"
+    }
+  ]
 }
